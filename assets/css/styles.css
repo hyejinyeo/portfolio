@@ -15,7 +15,7 @@
     --accent-color: #D94F30;
     --highlight-color: #FFDF65;
     --body-color: #FAFAFA;
-    --light-bg-color: #EDF2F4;
+    --light-bg-color: #ECECEC;
     
 
     /* ---------- Font and typography ---------- */
@@ -457,7 +457,7 @@ header {
     width: 96%;
 }
 .contact__content {
-    background-color: var(--light-bg-color);
+    background-color: var(--primary-color-lighter);
     border-radius: .5rem;
     padding: .75rem 1rem .25rem;
     margin: 0 0 1rem 0;
