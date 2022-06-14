@@ -56,35 +56,39 @@ let swiper = new Swiper(".mySwiper", {
 
 
 /* ==================== CONTACT ==================== */
-const form = document.querySelector('.contact__form'),
-      submitButton = document.getElementById("contact__submit");
+// const form = document.querySelector('.contact__form'),
+//       submitButton = document.getElementById("contact__submit");
 
 
-function sendMessage(e) {
-    e.preventDefault();
+// function sendMessage(e) {
+//     e.preventDefault();
 
-    const name = document.querySelector('input[name="name"]'),
-          email = document.querySelector('input[name="email"]'),
-          subject = document.querySelector('input[name="subject"]'),
-          msg = document.querySelector('textarea[name="message"]')
+//     const name = document.querySelector('input[name="name"]'),
+//           email = document.querySelector('input[name="email"]'),
+//           subject = document.querySelector('input[name="subject"]'),
+//           msg = document.querySelector('textarea[name="message"]')
 
-    Email.send({
-        // mailtrap.io
-        Host : "smtp.mailtrap.io",
-        Username : "f3a70d3f5513e3",
-        Password : "ba9271bcc805fc",
-        To : 'random@mail.com',
-        From : email.value,
-        Subject : 'Contact Portfolio : ' + subject.value,
-        Body : 'Nom : ' + name.value + '<br>' + 'Message : ' + msg.value
-    }).then(
-        message => alert(message)
-    );
+//     Email.send({
+//         // mailtrap.io
+//         Host : "smtp.mailtrap.io",
+//         Username : "f3a70d3f5513e3",
+//         Password : "ba9271bcc805fc",
+//         To : 'random@mail.com',
+//         From : email.value,
+//         Subject : 'Contact Portfolio : ' + subject.value,
+//         Body : 'Nom : ' + name.value + '<br>' + 'Message : ' + msg.value
+//     }).then(
+//         message => alert(message)
+//     );
 
 
-}
+// }
 
-submitButton.addEventListener('click', sendMessage)
+// submitButton.addEventListener('click', sendMessage)
+
+
+
+
 
 // Elastic
 // Host : "smtp.gmail.com",

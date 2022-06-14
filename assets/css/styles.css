@@ -92,12 +92,13 @@ p {
     font-size: var(--normal-font-size);
     font-weight: var(--semilight-font-weight);
 }
-/* button {
+button {
     border: none;
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
     text-align: center;
-} */
+}
+
 
 /* ========================= LAYOUT ========================= */
 .section {

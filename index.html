@@ -473,7 +473,8 @@
                     <!-- <div class="contact__data">
                         <img src="assets/img/brush.png" alt="brush">s
                     </div> -->
-                    <form class="contact__form">
+                    <!-- FORM VERSION 1 -->
+                    <!-- <form class="contact__form">
                         <div class="contact__inputs">
                             <div class="contact__content">
                                 <label for="name" class="contact__label">Nom</label>
@@ -495,6 +496,32 @@
                         <div id="contact__submit" class="button button--flex contact__button">
                             Envoyer le message <i class="uil uil-message button__icon"></i>
                         </div>
+                    </form> -->
+                    <!-- FROM VERSION 2 : FORM SUBMIT -->
+                    <form action="https://formsubmit.co/hyejinyeo.dev@gmail.com" method="POST" class="contact__form">
+                        <div class="contact__inputs">
+                            <div class="contact__content">
+                                <label for="name" class="contact__label">Nom</label>
+                                <input type="text" name="name" class="contact__input" required>
+                            </div>
+                            <div class="contact__content">
+                                <label for="email" class="contact__label">Email</label>
+                                <input type="email" name="email" class="contact__input" required>
+                            </div>
+                            <div class="contact__content">
+                                <label for="subject" class="contact__label">Sujet</label>
+                                <input type="text" name="_subject" class="contact__input" required>
+                            </div>
+                            <div class="contact__content">
+                                <label for="message" class="contact__label">Message</label>
+                                <!-- <input type="text" name="message" class="contact__input" required> -->
+                                <textarea name="message" rows="7" class="contact__input" required></textarea>
+                            </div>                                        
+                        </div>
+                        <button type="submit" class="button button--flex contact__button">
+                            Envoyer le message<i class="uil uil-message button__icon"></i>
+                        </button>
+                        
                     </form>
                 </div>
             </div>
